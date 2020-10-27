@@ -1,5 +1,5 @@
-#Calculator App in React Native
+# Calculator App in React Native
 
-#Screencast:
+# Screencast:
 
 ![screenshot](/assets/screen.gif)
