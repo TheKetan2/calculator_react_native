@@ -40,7 +40,7 @@ export default function App() {
         setPrev(null);
       }
       if (operator === "-") {
-        setCurrentValue((current - previous).toString());
+        setCurrentValue((previous - current).toString());
         setOperator(null);
         setPrev(null);
       }
@@ -50,7 +50,7 @@ export default function App() {
         setPrev(null);
       }
       if (operator === "/") {
-        setCurrentValue((current / previous).toString());
+        setCurrentValue((previous / current).toString());
         setOperator(null);
         setPrev(null);
       }
