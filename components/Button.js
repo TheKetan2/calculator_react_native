@@ -1,5 +1,13 @@
 import React from "react";
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  TouchableOpacity,
+  Dimensions,
+} from "react-native";
+
+const screen = Dimensions.get("window");
 
 const Button = ({ onPress, text }) => {
   return (
@@ -15,10 +23,14 @@ const styles = StyleSheet.create({
   text: {
     color: "#fff",
     fontSize: 25,
-    textAlign: "center",
   },
   button: {
     backgroundColor: "#333333",
     flex: 1,
+    height: screen.width / 4 - 10,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: screen.width / 4,
+    margin: 5,
   },
 });
