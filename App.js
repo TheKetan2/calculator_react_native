@@ -11,33 +11,33 @@ export default function App() {
         <StatusBar barStyle={"light-content"} />
         <Text style={styles.value}>100</Text>
         <Row>
-          <Button onPress={() => {}} text={"C"} />
-          <Button onPress={() => {}} text={"+/-"} />
-          <Button onPress={() => {}} text={"%"} />
-          <Button onPress={() => {}} text={"/"} />
+          <Button theme={"secondary"} onPress={() => {}} text={"C"} />
+          <Button theme={"secondary"} onPress={() => {}} text={"+/-"} />
+          <Button theme={"secondary"} onPress={() => {}} text={"%"} />
+          <Button theme={"accent"} onPress={() => {}} text={"/"} />
         </Row>
         <Row>
           <Button onPress={() => {}} text={"7"} />
           <Button onPress={() => {}} text={"8"} />
           <Button onPress={() => {}} text={"9"} />
-          <Button onPress={() => {}} text={"x"} />
+          <Button theme={"accent"} onPress={() => {}} text={"x"} />
         </Row>
         <Row>
           <Button onPress={() => {}} text={"4"} />
           <Button onPress={() => {}} text={"5"} />
           <Button onPress={() => {}} text={"6"} />
-          <Button onPress={() => {}} text={"-"} />
+          <Button theme={"accent"} onPress={() => {}} text={"-"} />
         </Row>
         <Row>
           <Button onPress={() => {}} text={"1"} />
           <Button onPress={() => {}} text={"2"} />
           <Button onPress={() => {}} text={"3"} />
-          <Button onPress={() => {}} text={"+"} />
+          <Button theme={"accent"} onPress={() => {}} text={"+"} />
         </Row>
         <Row>
-          <Button onPress={() => {}} text={"0"} />
+          <Button size={"double"} onPress={() => {}} text={"0"} />
           <Button onPress={() => {}} text={"."} />
-          <Button onPress={() => {}} text={"="} />
+          <Button theme={"accent"} onPress={() => {}} text={"="} />
         </Row>
       </SafeAreaView>
       <StatusBar style="auto" />
